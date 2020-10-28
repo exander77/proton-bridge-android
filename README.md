@@ -23,7 +23,9 @@ Use `help` for other commands.
 
 # Setting up K-9
 Use `info` command to get the credentials.
-Both IMAP and SMTP runs on 127.0.0.1 and use STARTTLS, IMAP uses port 1143, SMTP uses port 1024.
+Both IMAP and SMTP runs on 127.0.0.1 and use STARTTLS.
+IMAP uses port 1143.
+SMTP uses port 1025.
 
 # Disclaimer
 
