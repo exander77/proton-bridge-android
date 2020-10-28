@@ -18,9 +18,14 @@ Builds ProtonBridge.
 Runs ProtonBridge including unlocking pass. It can be launched from anywhere.
 
 # Setting up ProtonBridge
-Use `login` to set up account and `list` to list account status, `change` for switching between combined/split mode.
+Use `login` to set up account `list` to list account status, `info` for getting credentials, `change` for switching between combined/split mode.
 Use `help` for other commands.
+
+# Setting up K-9
+Use `info` command to get the credentials.
+Both IMAP and SMTP runs on 127.0.0.1 and use STARTTLS, IMAP uses port 1143, SMTP uses port 1024.
 
 # Disclaimer
 
-**Author accepts no liability for any loss or damage arising directly or indirectly from using this repository.** Including but not limited to data loss, self harm and alcohol abuse.
+**Author accepts no liability for any loss or damage arising directly or indirectly from using this repository.**
+Including but not limited to data loss, self harm and alcohol abuse.
