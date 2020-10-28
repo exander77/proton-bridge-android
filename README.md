@@ -18,7 +18,7 @@ Sets up pgp and pass during - it interactively asks for informations.
 Builds ProtonBridge.
 
 ## run.sh
-Runs ProtonBridge including unlocking pass. It can be launched from anywhere.
+Runs ProtonBridge including unlocking pass keychain. It can be launched from anywhere.
 
 ## update.sh
 (TODO) Updates to the latest version.
@@ -34,7 +34,7 @@ IMAP uses port 1143.
 SMTP uses port 1025.
 
 # Setting up Android
-I suggest turning of Battery Optimization for the Termux application or it may (and will) be shut down regularly by system.
+I suggest turning off Battery Optimization for the Termux application or it may (and will) be shut down regularly by system.
 
 # Prebuilt releases?
 
