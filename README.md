@@ -23,4 +23,4 @@ Use `help` for other commands.
 
 # Disclaimer
 
-**Author accepts no liability for any loss or damage arising directly or indirectly from using this repository.**
+**Author accepts no liability for any loss or damage arising directly or indirectly from using this repository.** Including but not limited to data loss, self harm and alcohol abuse.
