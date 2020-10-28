@@ -1,6 +1,6 @@
 # ProtonBridge Android
 
-Support scripts and patches for building and running ProtonBridge for Android.
+Support scripts and patches for building and running ProtonBridge on Android in Termux.
 
 **Features:**
 - it should build,
