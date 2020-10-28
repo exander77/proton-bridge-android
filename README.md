@@ -20,6 +20,9 @@ Builds ProtonBridge.
 ## run.sh
 Runs ProtonBridge including unlocking pass. It can be launched from anywhere.
 
+## update.sh
+(TODO) Updates to the latest version.
+
 # Setting up ProtonBridge
 Use `login` to set up account `list` to list account status, `info` for getting credentials, `change` for switching between combined/split mode.
 Use `help` for other commands.
@@ -32,6 +35,10 @@ SMTP uses port 1025.
 
 # Setting up Android
 I suggest turning of Battery Optimization for the Termux application or it may (and will) be shut down regularly by system.
+
+# Prebuilt releases?
+
+No. You will build it yourself.
 
 # Disclaimer
 
