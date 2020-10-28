@@ -5,7 +5,10 @@ Support scripts and patches for building and running ProtonBridge on Android in 
 **Features:**
 - it should build,
 - it should run,
-- it should support K-9 E-Mail client (https://f-droid.org/en/packages/com.fsck.k9/), probably supports FaireMail, AquaMail, etc.
+- it should support K-9 E-Mail client (https://f-droid.org/en/packages/com.fsck.k9/), probably supports FaireMail, AquaMail, etc.,
+- it uses pass as keychain.
+
+# Howto
 
 ## bootstrap.sh
 Downlads everything to build and run ProtonBridge including sources for which it applies patches.
