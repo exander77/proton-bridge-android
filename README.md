@@ -1,4 +1,29 @@
 # ProtonBridge Android (Termux)
+ProtonBridge is now in official Termux repositories:
+
+```
+u0_a186@localhost:~$ pkg search proton-bridge
+Checking availability of current mirror: ok
+Sorting... Done
+Full Text Search... Done
+proton-bridge/stable,now 1.4.5 aarch64 [installed]
+  ProtonMail Bridge application
+```
+
+You can install it and set up pass keychain:
+```
+pkg install pass proton-bridge
+gpg --full-generate-keygpg --list-secret-keys
+pass init $(gpg --list-secret-keys  | grep ^sec -A1 | tail -n1 | sed -e 's/^[[:space:]]*//')
+printf "\n\n" | pass insert test/test
+```
+
+Then unlock the keychain and run it:
+```
+pass test/test && proton-bridge --cli
+```
+
+# (Custom Build) ProtonBridge Android (Termux)
 
 Support scripts and patches for building and running ProtonBridge on Android in Termux.
 
